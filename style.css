@@ -1,0 +1,82 @@
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div-nav{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    height: 5%;
+}
+
+.navar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.mrxelander{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 36px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mrxelander:hover{
+    box-shadow: inset 300px 0 0 0 #ffffff73;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+}
+
+.home{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+    box-shadow: inset 100px 0 0 0 #ffffff73;
+    color: rgb(44, 44, 44);
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.home:hover{
+    font-weight: bold;
+    box-shadow: inset 100px 0 0 0 #ffffffb5;
+}
+
+.others{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.others:hover{
+    font-weight: bold;
+    box-shadow: inset 150px 0 0 0 #ffffffb5;
+    color: #000;
+}
+
+.div-page{
+    background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+    width: 100%;
+    height: 95%;
+}
+
+h1{
+    font-family: monospace;
+    margin: 0;
+    color: azure;
+}
