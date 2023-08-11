@@ -44,7 +44,7 @@ body{
     margin-right: 20px;
 }
 
-.projects{
+.about{
     text-decoration: none;
     font-family: monospace;
     font-size: 24px;
@@ -55,7 +55,7 @@ body{
     font-weight: bold;
 }
 
-.projects:hover{
+.about:hover{
     font-weight: bold;
     box-shadow: inset 160px 0 0 0 #ffffffb5;
 }
@@ -71,7 +71,7 @@ body{
 
 .others:hover{
     font-weight: bold;
-    box-shadow: inset 150px 0 0 0 #ffffffb5;
+    box-shadow: inset 160px 0 0 0 #ffffffb5;
     color: #000;
 }
 
@@ -88,4 +88,62 @@ h1{
     font-family: monospace;
     margin: 0;
     color: azure;
+}
+
+@media screen and (max-width: 950px){
+    .div-nav{
+        height: 5%;
+    }
+
+    .navar{
+        height: 5vh;
+    }
+    .mrxelander{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .about{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .others{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .div-page{
+        height: 95%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .div-nav{
+        height: 5%;
+    }
+
+    .navar{
+        height: 5vh;
+    }
+    .mrxelander{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .about{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .others{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .div-page{
+        height: 95%;
+    }
 }

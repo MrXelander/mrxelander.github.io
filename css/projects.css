@@ -1,0 +1,255 @@
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(circle at 24.1% 68.8%, #202d3a 0%, #162229 99.4%);
+    height: 8%;
+    z-index: 9999;
+}
+
+.navar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+
+.mrxelander{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 36px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.mrxelander:hover{
+    box-shadow: inset 300px 0 0 0 #ffffff73;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+}
+
+.home{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.projects{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+    box-shadow: inset 160px 0 0 0 #ffffff;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.projects:hover{
+    font-weight: bold;
+    box-shadow: inset 160px 0 0 0 #ffffffb5;
+}
+
+.others{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.others:hover{
+    font-weight: bold;
+    box-shadow: inset 160px 0 0 0 #ffffffb5;
+    color: #000;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt_unam,
+.projecteva,
+.memo,
+.bank,
+.satafesc,
+.caja {
+    width: 100%;
+    height: 100vh;
+    padding: 0 80px;
+}
+
+.section_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt_unam {
+    background-color: #000;
+}
+
+.projecteva {
+    background-color: #162229;
+}
+
+.memo {
+    background-color: #202d3a;
+}
+
+.bank {
+    background-color: #c6ebff;
+}
+
+.satafesc{
+    background-color: #e2f5ff;
+}
+
+.caja{
+    background-color: #fff;
+}
+
+img {
+    width: 800px;
+}
+
+.text {
+    width: 30%;
+    font-family: monospace;
+    text-align: left;
+    margin-right: 20px;
+
+}
+
+.gpt_unam,
+.gpt_unam a,
+.projecteva,
+.projecteva a,
+.memo,
+.memo a{ 
+    color: #fff;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, 
+.swiper-container-vertical>.swiper-pagination-progressbar {
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    height: 50%;
+}
+
+@media screen and (max-width: 950px){
+    .div-nav{
+        height: 5%;
+    }
+
+    .navar{
+        height: 5vh;
+    }
+    .mrxelander{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .projects{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .others{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .div-page{
+        height: 95%;
+    }
+
+    img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .div-nav{
+        height: 5%;
+    }
+
+    .navar{
+        height: 5vh;
+    }
+    .mrxelander{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .projects{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .others{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .div-page{
+        height: 95%;
+    }
+
+    img{
+        width: 200px;
+    }
+}

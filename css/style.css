@@ -30,6 +30,7 @@ body{
     font-size: 36px;
     color: #fff;
     margin-left: 20px;
+    margin-right: auto;
 }
 
 .mrxelander:hover{
@@ -195,7 +196,7 @@ body{
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 500px){
     .div-nav{
         height: 5%;
     }
@@ -204,16 +205,16 @@ body{
         height: 5vh;
     }
     .mrxelander{
-        font-size: 15px;
+        font-size: 18px;
         margin-left: 5px;
     }
     .home{
-        font-size: 10px;
+        font-size: 12px;
         margin-right: 5px;
     }
 
     .others{
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -249,5 +250,6 @@ body{
         font-size: 10px;
         margin-left: 0px;
         margin-right: 5px;
+        padding: 10px 10px;
     }
 }
