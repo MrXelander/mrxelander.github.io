@@ -9,6 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .div-nav {
@@ -106,7 +107,7 @@ body{
 
 .sections {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -118,7 +119,7 @@ body{
 .caja {
     width: 100%;
     height: 100vh;
-    padding: 0 80px;
+    /*padding: 0 80px;*/
 }
 
 .section_container {
@@ -219,6 +220,10 @@ img {
     img{
         width: 400px;
     }
+
+    .title{
+        max-width: 100px;
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -251,5 +256,9 @@ img {
 
     img{
         width: 200px;
+    }
+
+    .title{
+        font-size: 25px;
     }
 }
